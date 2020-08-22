@@ -38,11 +38,11 @@ features                                  :
     description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
     fontawesome_icon_name                 : magic
     
-  - title                                 : iPhone Device Preview
+  - title                                 : More than 300 Tests
     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
+  - title                                 : Covid 19 Checklist
     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
     fontawesome_icon_name                 : play-circle
 
@@ -62,8 +62,8 @@ features                                  :
     description                           : Display a smart app banner on iOS devices.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Reference Links
+    description                           : PubMed, Medscape, Wikipedia, Youtube. Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
     fontawesome_icon_name                 : link
 
   - title                                 : FontAwesome Support
