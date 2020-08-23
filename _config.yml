@@ -35,20 +35,26 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Pocket Lab Tests Reference
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+    description                           : LabGear is the most advanced pocket tool for Medical Laboratory tests with peer reviewed content for all health care professionals - students, physicians, nurses
     fontawesome_icon_name                 : magic
     
   - title                                 : More than 300 Tests
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+    description                           : Covers all major blood tests from major organ systems including testing panels, tumor markers and toxicology
+    fontawesome_icon_name                 : heart
+ 
+  - title                                 : Differential Diagnosis & Symptoms
+    description                           : Comprehensive library of medical lab tests with differential diagnosis and associated characteristic presenting signs and symptoms
+    fontawesome_icon_name                 : play-circle
+
+   - title                                  : Chemistry Panels 
+    description                           : Basic Metabolic Panel, Comprehensive Metabolic Panel, Complete blood Picture, Arterial Blood Gases, Liver Panel, Lipid Profile, Coagulation Profile, Diabetic Profile
+    fontawesome_icon_name                 : sync
+
 
   - title                                 : Covid 19 Checklist
     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
 
   - title                                 : Easy to Tweak
     description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
@@ -63,7 +69,7 @@ features                                  :
     fontawesome_icon_name                 : arrow-alt-circle-down
 
   - title                                 : Reference Links
-    description                           : PubMed, Medscape, Wikipedia, Youtube. Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+    description                           : Articles contain reference links to PubMed, Medscape, LabTestsOnline and Wikipedia 
     fontawesome_icon_name                 : link
 
   - title                                 : FontAwesome Support
