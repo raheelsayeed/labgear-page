@@ -46,7 +46,7 @@ features                                  :
     description                           : Comprehensive library of medical lab tests with differential diagnosis and associated characteristic presenting signs and symptoms
     fontawesome_icon_name                 : play-circle
 
-   - title                                  : Chemistry Panels 
+  - title                                  : Chemistry Panels 
     description                           : Basic Metabolic Panel, Comprehensive Metabolic Panel, Complete blood Picture, Arterial Blood Gases, Liver Panel, Lipid Profile, Coagulation Profile, Diabetic Profile
     fontawesome_icon_name                 : sync
 
