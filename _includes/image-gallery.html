@@ -8,7 +8,7 @@
 <div class="image-gallery">
    {% for file in site.static_files %}
     {% if file.path contains 'assets/screenshot/' %}
-     <a href="{{ file.path }}" title="{{ filename }}">
+     <a href="{{ site.github.baseurl }}{{ file.path }}" title="{{ filename }}">
          <img src="{{ site.github.baseurl }}{{ file.path }}" alt="{{ filename }}" />
         <span>{{ filename }}</span>
       </a>
