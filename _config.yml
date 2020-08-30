@@ -36,7 +36,7 @@ features                                  :
 
   - title                                 : Pocket Lab Tests Reference
     description                           : LabGear is the most advanced pocket tool for Medical Laboratory tests with peer reviewed content for all health care professionals - students, physicians, nurses
-    fontawesome_icon_name                 : magic
+    fontawesome_icon_name                 : flask
     
   - title                                 : More than 300 Tests
     description                           : Covers all major blood tests from major organ systems including testing panels, tumor markers and toxicology
@@ -44,16 +44,22 @@ features                                  :
  
   - title                                 : Differential Diagnosis & Symptoms
     description                           : Comprehensive library of medical lab tests with differential diagnosis and associated characteristic presenting signs and symptoms
-    fontawesome_icon_name                 : play-circle
+    fontawesome_icon_name                 : stethoscope
 
-  - title                                  : Chemistry Panels 
-    description                           : Basic Metabolic Panel, Comprehensive Metabolic Panel, Complete blood Picture, Arterial Blood Gases, Liver Panel, Lipid Profile, Coagulation Profile, Diabetic Profile
-    fontawesome_icon_name                 : sync
+  - title                                 : Chemistry Panels 
+    description                           : Basic Metabolic Panel, Comprehensive Metabolic Panel, Complete blood Picture, Arterial Blood Gases, Liver Panel, Lipid Profile, Coagulation Profile, Diabetic Profile including fishbone schematics
+    fontawesome_icon_name                 : vials
+
+
+  - title                                 : Color Indicators 
+    description                           : Containers for sample collections differ by the blood test type. LabGear has clear color indicators for each of the tests for fast reference
+    fontawesome_icon_name                 : vial
+
 
 
   - title                                 : Covid 19 Checklist
     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+    fontawesome_icon_name                 : virus
 
 
   - title                                 : Easy to Tweak
