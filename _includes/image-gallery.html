@@ -6,6 +6,23 @@
     .image-gallery li a img {width: 100%; display: block;}
 </style>
 
+<style>
+    .image-gallery-index {overflow: auto; margin-left: -1%!important;}
+    .image-gallery-index a {float: left; display: block; margin: 0 0 1% 1%; width: 19%; text-decoration: none !important;}
+    .image-gallery-index a img {width: 100%; display: block;}
+    .image-gallery-index a span {display: block; text-align: center; padding: 3px 0;}
+</style>
+
+<p class="image-gallery-index">
+    {% for file in site.static_files %}
+    {% if file.path contains 'assets/screenshot/' %}
+    <a href="{{ site.github.baseurl }}{{ file.path }}" title="{{ file.path }}">
+         <img src="//images.weserv.nl/?url=raheelsayeed.github.io/{{ site.github.baseurl }}{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
+        <span>{{ file.path }}</span></a>
+    {% endif %}
+    {% endfor %}
+</p>
+
 
 <ul class="image-gallery">
    {% for file in site.static_files %}
