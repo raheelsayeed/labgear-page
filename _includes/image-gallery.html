@@ -8,10 +8,10 @@
 <ul class="image-gallery">
    {% for file in site.static_files %}
     {% if file.path contains 'assets/screenshot/' %}
-     <a href="{{ site.github.baseurl }}{{ file.path }}" title="{{ filename }}">
+    <li> <a href="{{ site.github.baseurl }}{{ file.path }}" title="{{ filename }}">
          <img src="//images.weserv.nl/?url=raheelsayeed.github.io/{{ site.github.baseurl }}{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
         <span>{{ filename }}</span>
-      </a>
+        </a></li>
     {% endif %}
    {% endfor %}
 </ul>
