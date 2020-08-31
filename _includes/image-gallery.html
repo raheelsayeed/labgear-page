@@ -5,7 +5,7 @@
   .image-gallery a img {width: 100%; display: block;}
 </style>
 
-<div class="image-gallery">
+<ul class="image-gallery">
    {% for file in site.static_files %}
     {% if file.path contains 'assets/screenshot/' %}
      <a href="{{ site.github.baseurl }}{{ file.path }}" title="{{ filename }}">
@@ -14,4 +14,4 @@
       </a>
     {% endif %}
    {% endfor %}
-</div>
+</ul>
