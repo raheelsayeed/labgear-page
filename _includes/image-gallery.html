@@ -9,7 +9,7 @@
     {% for file in site.static_files %}
     {% if file.path contains 'assets/screenshot/' %}
     <a href="{{ site.github.baseurl }}{{ file.path }}" title="{{ file.path }}">
-         <img src="//images.weserv.nl/?url=raheelsayeed.github.io/{{ site.github.baseurl }}{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
+         <img src="//images.weserv.nl/?url=raheelsayeed.github.io/{{ site.github.baseurl }}{{ file.path }}&w=100&h=100&output=jpg&q=50&t=square" alt="{{ filename }}" />
         <span>{{ file.path }}</span></a>
     {% endif %}
     {% endfor %}
